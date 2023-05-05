@@ -5,7 +5,9 @@ export default createBoard({
     name: 'CubeCanvas',
     Board: () => <Cube />,
     environmentProps: {
-        canvasWidth: 1202,
-        canvasHeight: 756,
+        windowWidth: 1920,
+        windowHeight: 1080,
+        canvasHeight: 1246,
+        canvasWidth: 2172,
     },
 });

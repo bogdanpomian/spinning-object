@@ -1,3 +1,10 @@
+html, body
+{
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
@@ -8,4 +15,8 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.set-max-dimensions {
+  width: 100%;
+  height: 100%;
 }

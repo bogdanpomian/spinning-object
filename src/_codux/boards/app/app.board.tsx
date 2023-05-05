@@ -1,11 +1,10 @@
 import { createBoard } from '@wixc3/react-board';
 import App from '../../../App';
+import '../../../index.css';
 
 export default createBoard({
     name: 'App',
-    Board: () => <App />,
-    environmentProps: {
-        canvasWidth: 'auto',
-        canvasHeight: 'auto',
-    },
+    Board: () => <App className="set-max-dimensions" />,
+    environmentProps: {},
+    // setup
 });

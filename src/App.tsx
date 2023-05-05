@@ -1,6 +1,6 @@
 import { Cube } from './components/cube/cube';
 
-function App() {
+function App({ className }: any) {
     return (
         <div>
             <Cube />

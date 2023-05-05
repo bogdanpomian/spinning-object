@@ -1,5 +1,3 @@
-import styles from './cube.module.scss';
-import classNames from 'classnames';
 import { useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Mesh } from 'three';
